@@ -1,0 +1,34 @@
+Flood and Outage Risk Management System (Main Repository)
+Copyright 2025 PKA-OpenLD
+
+Licensed under the Apache License, Version 2.0.
+
+--------------------------------------------------------------------------------
+PROJECT AGGREGATION NOTICE
+--------------------------------------------------------------------------------
+This repository serves as the central point (aggregator) for the Flood and 
+Outage Risk Management System solution. It contains the following sub-modules, 
+each distributed under its own license terms as detailed within their 
+respective directories:
+
+1. Web Application (./app)
+   - Description: Next.js Frontend & Backend Logic.
+   - License: Apache 2.0
+   - Third-party Attributions: See ./app/NOTICE
+
+2. AI Model Core (./models)
+   - Description: Traffic/Flood detection logic (YOLO based).
+   - License: Apache 2.0 (Contains AGPL-3.0 logic & CC BY 4.0 Datasets).
+   - Third-party Attributions: See ./models/NOTICE
+
+3. Communication Bridge (./bridge)
+   - Description: Middleware/API Connector.
+   - License: Apache 2.0
+   - Third-party Attributions: See ./bridge/NOTICE
+
+--------------------------------------------------------------------------------
+BUILD & DISTRIBUTION
+--------------------------------------------------------------------------------
+This collective work is licensed under Apache 2.0. However, compiling and 
+running the full system requires complying with the licenses of all included 
+sub-modules, specifically the AGPL-3.0 terms residing in the 'models' module.
