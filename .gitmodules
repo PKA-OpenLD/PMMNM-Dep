@@ -1,0 +1,11 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/Caxtiq/pmmnm.git
+
+[submodule "bridge"]
+	path = bridge
+	url = https://github.com/Caxtiq/pmmnm-bridge.git
+
+[submodule "models"]
+	path = models
+	url = https://github.com/Caxtiq/pmmnm-model.git
