@@ -491,8 +491,8 @@ Chưa, nhưng web app đã responsive và hoạt động tốt trên mobile.
 ## Đóng Góp.
 Tới [Hướng Dẫn Đóng Góp](https://github.com/PKA-OpenLD/FORMS/blob/main/CONTRIBUTING.md).
 
-## Giấy Phép.
-Source code trong repository được đảm báo dưới [Apache License Version 2.0] (https://github.com/PKA-OpenLD/FORMS/blob/main/LICENSE).
+##📜 Giấy Phép.
+Source code trong repository được đảm báo dưới [Apache License Version 2.0](https://github.com/PKA-OpenLD/FORMS/blob/main/LICENSE).
 
 ## Tuyên bố miễn trừ trách nhiệm
 
@@ -502,7 +502,7 @@ Dự án này được phát triển cho mục đích học tập và dự thi. 
 
 **⭐ Nếu dự án hữu ích, đừng quên cho chúng tôi một Star! ⭐**
 
-Made with ❤️ by [PKA-OpenLD](https://github.com/PMMNM-Dep) for OLP 2025
+Made with ❤️ by [PKA-OpenLD](https://github.com/PKA-OpenLD) for OLP 2025
 
 ---
 
