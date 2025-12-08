@@ -4,8 +4,6 @@
 
 # Flood and Outage Risk Management System
 
-### ()
-
 ![OLP 2025](https://img.shields.io/badge/Competition-OLP__2025-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache__2.0-green?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)
@@ -20,25 +18,6 @@
 ### Video Demo
 
 🎥 [Watch Demo Video](https://youtube.com/demo) (Coming soon)
-
----
-
-## Mục lục
-
-- [Kiến trúc hệ thống](#kiến-trúc-hệ-thống)
-- [Yêu cầu hệ thống](#yêu-cầu-hệ-thống-prerequisites)
-- [Hướng dẫn Cài đặt](#hướng-dẫn-cài-đặt-build-from-source)
-- [Chạy ứng dụng](#chạy-ứng-dụng-run)
-- [Tính năng chính](#tính-năng-chính-features)
-- [Testing & Development](#testing--development)
-- [Deployment](#deployment)
-- [Cấu hình môi trường](#cấu-hình-môi-trường)
-- [Đóng góp](#đóng-góp-contributing)
-- [Giấy phép](#giấy-phép-license)
-- [Dự thi OLP 2025](#-dự-thi-olp-2025)
-- [Đội ngũ phát triển](#đội-ngũ-phát-triển-team)
-- [Liên kết hữu ích](#liên-kết-hữu-ích-useful-links)
-- [FAQ (Câu hỏi thường gặp)](#-faq-câu-hỏi-thường-gặp)
 
 ---
 
