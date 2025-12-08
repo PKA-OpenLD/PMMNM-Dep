@@ -23,7 +23,9 @@
 
 ---
 
-<img src='./docs/resources/demo.gif' />
+<div align="center">
+  <img src="./docs/resources/demo.gif" alt="demo" />
+</div>
 
 ---
 
