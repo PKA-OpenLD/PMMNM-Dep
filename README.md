@@ -1,6 +1,10 @@
-# HỆ THỐNG QUẢN LÝ RỦI RO NGẬP LỤT & GIÁM SÁT GIAO THÔNG
+<p align="center">
+  <img src="docs/resources/FORMS_logo.png" alt="FORMS Logo" width="600"/>
+</p>
 
-### (Flood and Outage Risk Management System)
+# Flood and Outage Risk Management System
+
+### ()
 
 ![OLP 2025](https://img.shields.io/badge/Competition-OLP__2025-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache__2.0-green?style=for-the-badge)
@@ -83,6 +87,7 @@
 - User reports management
 
 ---
+
 ## Kiến trúc hệ thống
 
 ### Tổng quan kiến trúc
@@ -131,12 +136,11 @@ Dự án được tổ chức theo mô hình **Microservices** với ba thành p
 
 ### Thành phần chính
 
-| Module       | Thư mục               | Công nghệ chính                    | Mô tả                                                     |
-| :----------- | :-------------------- | :--------------------------------- | :-------------------------------------------------------- |
+| Module       | Thư mục               | Công nghệ chính                    | Mô tả                                                         |
+| :----------- | :-------------------- | :--------------------------------- | :------------------------------------------------------------ |
 | **Web App**  | [`/app`](./app)       | Next.js 16, Bun, React 19, VietMap | Giao diện người dùng, Dashboard quản lý, Bản đồ số tương tác. |
-| **AI Model** | [`/models`](./models) | Python, YOLOv8/11, OpenCV          | Mô hình nhận diện phương tiện và cảnh báo ngập lụt.        |
-| **Bridge**   | [`/bridge`](./bridge) | Go, MQTT Client, API Client        | Middleware MQTT kết nối sensor IoT và Web App.             |
-
+| **AI Model** | [`/models`](./models) | Python, YOLOv8/11, OpenCV          | Mô hình nhận diện phương tiện và cảnh báo ngập lụt.           |
+| **Bridge**   | [`/bridge`](./bridge) | Go, MQTT Client, API Client        | Middleware MQTT kết nối sensor IoT và Web App.                |
 
 ---
 
@@ -163,11 +167,12 @@ git clone --recursive [https://github.com/PKA-OpenLD/FORMS.git](https://github.c
 ```
 
 ⚠️ Lưu ý: Nếu bạn đã lỡ clone bằng lệnh thường (thư mục con bị rỗng), hãy chạy lệnh sau để sửa lỗi:
+
 ```bash
 git submodule update --init --recursive
 ```
 
-``` bash 
+```bash
 # Di chuyển vào thư mục dự án
 cd FORMS
 ```
@@ -189,6 +194,7 @@ bun install
 # linux
 cp .env.local.example .env.local
 ```
+
 ```bash
 # window
 copy .env.local.example .env.local
@@ -293,6 +299,7 @@ python traffic_monitor.py --config monitor_config.yaml
 # Hoặc training model mới
 python train.py
 ```
+
 ---
 
 ## Deployment
@@ -320,7 +327,7 @@ Xem chi tiết tại:
 
 ---
 
-## Cấu hình môi trường 
+## Cấu hình môi trường
 
 ### Web Application (.env.local)
 
@@ -387,7 +394,6 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 - **Other dependencies**: Xem file LICENSE của từng module
 
 ---
-
 
 ### Điểm nổi bật:
 
@@ -476,9 +482,6 @@ Chưa, nhưng web app đã responsive và hoạt động tốt trên mobile.
 
 ---
 
-
-
-
 **Sử dụng có trách nhiệm:**
 
 - Tuân thủ license của các thành phần
@@ -489,6 +492,7 @@ Chưa, nhưng web app đã responsive và hoạt động tốt trên mobile.
 ---
 
 ## Đóng Góp.
+
 Tới [Hướng Dẫn Đóng Góp](https://github.com/PKA-OpenLD/FORMS/blob/main/CONTRIBUTING.md).
 
 ##📜 Giấy Phép.
