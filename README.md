@@ -13,6 +13,15 @@
 
 ---
 
+## 📑 Mục lục
+
+<div align="center">
+
+[✨ Tính năng](#tính-năng-chính-features) • [🏗️ Kiến trúc](#kiến-trúc-hệ-thống) • [📦 Cài đặt](#hướng-dẫn-cài-đặt-build-from-source) • [🚀 Chạy ứng dụng](#chạy-ứng-dụng-run)  • [📋 Cấu hình](#cấu-hình-môi-trường) • [📄 Giấy phép](#giấy-phép-license) • [👥 Team](#đội-ngũ-phát-triển-team) • [🔗 Liên kết](#liên-kết-hữu-ích-useful-links) • [❓ FAQ](#-faq-câu-hỏi-thường-gặp)
+</div>
+
+---
+
 ## Demo
 
 ### Video Demo
