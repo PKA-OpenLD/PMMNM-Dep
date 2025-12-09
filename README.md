@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-  🌊🚦 Flood and Outage Risk Management System 🌧️📡
+  🚦 Flood and Outage Risk Management System 🌧️
 </h1>
 
 <p align="center">
@@ -11,8 +11,6 @@
   <img src="https://img.shields.io/badge/License-Apache__2.0-green?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Version-1.1.0-green?style=for-the-badge" />
 </p>
-
-<!-- 🚀 VIDEO DEMO ĐƯỢC ĐẶT Ở ĐÂY -->
 <p align="center">
   <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" 
@@ -31,64 +29,44 @@
 
 <div align="center">
 
-[✨ Tính năng](#tính-năng-chính-features) • [🏗️ Kiến trúc](#kiến-trúc-hệ-thống) • [📦 Cài đặt](#hướng-dẫn-cài-đặt-build-from-source) • [🚀 Chạy ứng dụng](#chạy-ứng-dụng-run) • [📋 Cấu hình](#cấu-hình-môi-trường) • [📄 Giấy phép](#giấy-phép-license) • [👥 Team](#đội-ngũ-phát-triển-team) • [🔗 Liên kết](#liên-kết-hữu-ích-useful-links) • [❓ FAQ](#-faq-câu-hỏi-thường-gặp)
+[✨ Tính năng chính](#tính-năng-chính) • 
+[🏗️ Kiến trúc hệ thống](#kiến-trúc-hệ-thống) • 
+[📦 Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt) • 
+[🚀 Chạy ứng dụng](#chạy-ứng-dụng) • 
+[⚙️ Cấu hình môi trường](#cấu-hình-môi-trường) • 
+[📄 Giấy phép](#giấy-phép) • 
+[👥 Đội ngũ phát triển](#đội-ngũ-phát-triển) • 
+[🔗 Liên kết hữu ích](#liên-kết-hữu-ích) • 
+[❓ Câu hỏi thường gặp](#câu-hỏi-thường-gặp)
 
 </div>
 
----
+## Tính năng chính
 
+### Giám sát thời gian thực
+- Bản đồ tương tác hiển thị mức ngập, mật độ giao thông và sự cố hạ tầng.
+- Kết nối camera, cảm biến IoT, dữ liệu thời tiết.
+- Cập nhật theo thời gian thực qua WebSocket (Bun Server).
 
----
+### Phân tích & dự báo ngập
+- Trích xuất watermark, mức nước, biến động dòng chảy từ camera.
+- Phân tích và dự báo ngập dựa trên mô hình AI và dữ liệu cảm biến.
+- Hiển thị bản đồ rủi ro (risk heatmap) theo khu vực.
 
-<div align="center">
-  <img src="./docs/resources/demo.gif" alt="demo" />
-</div>
+### Giám sát & phân tích giao thông
+- Nhận dạng xe (car/bike/truck/bus) bằng mô hình YOLO.
+- Ước lượng mật độ giao thông theo thời gian.
+- Phát hiện tắc đường bất thường.
 
----
+### Tự động hóa & cảnh báo
+- Hệ thống rule theo khu vực/mức độ.
+- Cảnh báo real-time trên dashboard.
+- Tích hợp gửi thông báo qua API/Webhook.
 
-## Tính năng chính (Features)
-
-### Bản đồ thời gian thực
-
-- Hiển thị khu vực ngập lụt và tắc đường trên VietMap
-- Cập nhật tức thì qua WebSocket
-- Responsive trên mọi thiết bị
-
-### Giám sát cảm biến IoT
-
-- Tích hợp cảm biến mực nước, nhiệt độ, độ ẩm
-- MQTT protocol cho communication
-- Tự động cảnh báo khi vượt ngưỡng
-
-### AI Computer Vision
-
-- Phát hiện và đếm 8 loại phương tiện (YOLO)
-- Giám sát mật độ giao thông real-time
-- Cảnh báo tự động khi tắc đường
-
-### Rule Engine - Tự động hóa
-
-- Tạo zones cảnh báo tự động khi cảm biến kích hoạt
-- Logic phức tạp với AND/OR operators
-- Visual workflow editor (drag-and-drop)
-
-### Crowdsourcing
-
-- Người dùng báo cáo tình trạng ngập/tắc đường
-- Phân loại mức độ nghiêm trọng
-- Tracking và cập nhật status
-
-### Dự báo thời tiết
-
-- Tích hợp API thời tiết
-- Dự đoán rủi ro ngập lụt
-- Hiển thị cảnh báo sớm
-
-### Admin Panel
-
-- Quản lý zones, sensors, rules
-- Dashboard analytics
-- User reports management
+### Kiến trúc mở – dễ tích hợp
+- API RESTful + WebSocket.
+- Cấu trúc module (plugin-based) dễ mở rộng.
+- Tích hợp GIS, VietMap GL, MQTT, OpenStreetMap.
 
 ---
 
@@ -148,7 +126,7 @@ Dự án được tổ chức theo mô hình **Microservices** với ba thành p
 
 ---
 
-## Yêu cầu hệ thống (Prerequisites)
+## Yêu cầu hệ thống
 
 Để cài đặt và biên dịch mã nguồn, máy tính cần cài đặt sẵn:
 
@@ -159,9 +137,9 @@ Dự án được tổ chức theo mô hình **Microservices** với ba thành p
 
 ---
 
-## Hướng dẫn Cài đặt (Build from Source)
+## Hướng dẫn Cài đặt
 
-### Bước 1: Clone mã nguồn (Quan trọng)
+### Bước 1: Clone mã nguồn
 
 Do dự án sử dụng Git Submodules, bạn **BẮT BUỘC** phải clone với tham số `--recursive` để tải đầy đủ mã nguồn con:
 
@@ -181,7 +159,7 @@ git submodule update --init --recursive
 cd FORMS
 ```
 
-### Bước 2: Cài đặt Web Application (Next.js)
+### Bước 2: Cài đặt Web Application
 
 ```bash
 # Di chuyển vào thư mục app
@@ -204,7 +182,7 @@ cp .env.local.example .env.local
 copy .env.local.example .env.local
 ```
 
-### Bước 3: Cài đặt MQTT Bridge (Go)
+### Bước 3: Cài đặt MQTT Bridge 
 
 ```bash
 # Di chuyển vào thư mục bridge
@@ -219,13 +197,13 @@ cp config.example.yaml config.yaml
 # Chỉnh sửa config.yaml với thông tin MQTT broker và API endpoint
 ```
 
-### Bước 4: Cài đặt AI Model (Python)
+### Bước 4: Cài đặt AI Model
 
 ```bash
 # Di chuyển vào thư mục models
 cd ../models
 
-# Tạo virtual environment (khuyến nghị)
+# Tạo virtual environment
 python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 # venv\Scripts\activate   # Windows
@@ -241,19 +219,19 @@ cp monitor_config.example.yaml monitor_config.yaml
 
 ---
 
-## Chạy ứng dụng (Run)
+## Chạy ứng dụng
 
-### Khởi động MongoDB (Required)
+### Khởi động MongoDB
 
 ```bash
-# Sử dụng Docker (Khuyến nghị)
+# Sử dụng Docker
 docker run -d -p 27017:27017 --name mongodb mongo:latest
 
 # Hoặc cài đặt MongoDB locally
 # https://www.mongodb.com/try/download/community
 ```
 
-### Khởi động MQTT Broker (Optional - cho IoT sensors)
+### Khởi động MQTT Broker
 
 ```bash
 # Sử dụng Mosquitto
@@ -278,7 +256,7 @@ bun run server.ts
 
 Web app sẽ chạy tại: **http://localhost:3000**
 
-### 2. Khởi động MQTT Bridge (Optional)
+### 2. Khởi động MQTT Bridge 
 
 ```bash
 cd bridge
@@ -308,7 +286,7 @@ python train.py
 
 ## Deployment
 
-### Docker Compose (Khuyến nghị)
+### Docker Compose
 
 ```bash
 # Build và chạy tất cả services
@@ -387,7 +365,7 @@ locations:
 
 ---
 
-## Giấy phép (License)
+## Giấy phép
 
 Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LICENSE](./LICENSE) để biết thêm chi tiết.
 
@@ -412,7 +390,7 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 
 ---
 
-## Đội ngũ phát triển (Team)
+## Đội ngũ phát triển
 
 - **Organization**: PKA-OpenLD
 - **Maintainer**: PKA-OpenLD Team
@@ -427,14 +405,14 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 
 ---
 
-## Liên kết hữu ích (Useful Links)
+## Liên kết hữu ích
 
-### Documentation:
+### Tài liệu:
 
 - [Web App Architecture](https://github.com/username/app-module/blob/main/docs/PHAN_TICH_HE_THONG.md)
 - [MQTT Bridge Guide](https://github.com/username/bridge-module/blob/main/docs/PHAN_TICH_HE_THONG.md)
 - [AI Model Training](https://github.com/username/models-module/blob/main/docs/PHAN_TICH_HE_THONG.md)
-### External Resources:
+### Nguồn tài nguyên:
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [VietMap GL JS](https://maps.vietmap.vn/docs)
@@ -442,47 +420,31 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 - [MongoDB Manual](https://www.mongodb.com/docs)
 - [MQTT Protocol](https://mqtt.org/)
 
-### Datasets:
+### Bộ dữ liệu:
 
 - [Vehicle Detection Dataset](https://universe.roboflow.com/luong-duc/vehicle_detection_project-8jikm/dataset/1)
 - [Open Data Portal](https://data.gov.vn/)
 
 ---
 
-## ❓ FAQ (Câu hỏi thường gặp)
+## Câu hỏi thường gặp
 
 ### 1. Tại sao sử dụng Bun thay vì Node.js?
-
-Bun nhanh hơn, tiêu tốn ít RAM hơn, và có built-in TypeScript support.
-
+Bun có hiệu năng I/O và throughput cao hơn Node.js, đặc biệt trong môi trường real-time và WebSocket.
 ### 2. Có cần GPU để chạy AI model không?
-
 Không bắt buộc, nhưng có GPU (CUDA) sẽ nhanh hơn đáng kể.
-
 ### 3. VietMap API key lấy ở đâu?
-
 Đăng ký miễn phí tại [VietMap Portal](https://maps.vietmap.vn/).
-
 ### 4. Có thể chạy trên Raspberry Pi không?
-
 Có, nhưng nên dùng YOLOv11n (nano model) cho hiệu năng tốt hơn.
-
 ### 5. Dataset có thể dùng cho commercial không?
-
 Dataset sử dụng CC BY 4.0 license, có thể dùng commercial với attribution.
-
 ### 6. Làm sao để tích hợp thêm loại sensor mới?
-
 Xem [Bridge Documentation](./bridge/docs/PHAN_TICH_HE_THONG.md#adding-new-sensors).
-
 ### 7. Hệ thống có hỗ trợ multiple languages không?
-
 Chưa, nhưng có thể thêm i18n vào roadmap.
-
 ### 8. Có mobile app không?
-
 Chưa, nhưng web app đã responsive và hoạt động tốt trên mobile.
-
 ---
 
 **Sử dụng có trách nhiệm:**
@@ -507,10 +469,8 @@ Dự án này được phát triển cho mục đích học tập và dự thi. 
 
 <div align="center">
 
-**⭐ Nếu dự án hữu ích, đừng quên cho chúng tôi một Star! ⭐**
-
-Made with ❤️ by [PKA-OpenLD](https://github.com/PKA-OpenLD) for OLP 2025
-
+Nếu dự án mang lại giá trị, hãy cân nhắc ⭐ để ủng hộ nhóm phát triển.
+Developed and maintained by PKA-OpenLD — OLP 2025
 ---
 
 </div>
