@@ -35,9 +35,9 @@
 [🚀 Chạy ứng dụng](#chạy-ứng-dụng) • 
 [⚙️ Cấu hình môi trường](#cấu-hình-môi-trường) • 
 [📄 Giấy phép](#giấy-phép) • 
-[👥 Đội ngũ phát triển](#đội-ngũ-phát-triển) • 
 [🔗 Liên kết hữu ích](#liên-kết-hữu-ích) • 
-[❓ Câu hỏi thường gặp](#câu-hỏi-thường-gặp)
+[❓ Câu hỏi thường gặp](#câu-hỏi-thường-gặp) • 
+[👥 Đội ngũ phát triển](#đội-ngũ-phát-triển) 
 
 </div>
 
@@ -469,9 +469,11 @@ Dự án này được phát triển cho mục đích học tập và dự thi. 
 
 ---
 
+<p align="center">
+**Nếu dự án mang lại giá trị, hãy cân nhắc ⭐ để ủng hộ nhóm phát triển.**<br>
+_Developed and maintained by PKA-OpenLD — OLP 2025_
+</p>
 
-Nếu dự án mang lại giá trị, hãy cân nhắc ⭐ để ủng hộ nhóm phát triển.
-Developed and maintained by PKA-OpenLD — OLP 2025
 ---
 
 </div>
