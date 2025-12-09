@@ -12,6 +12,14 @@
   <img src="https://img.shields.io/badge/Version-1.1.0-green?style=for-the-badge" />
 </p>
 
+<!-- 🚀 VIDEO DEMO ĐƯỢC ĐẶT Ở ĐÂY -->
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+    <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" 
+         alt="Video Demo" width="720"/>
+  </a>
+</p>
+
 <p align="center">
   <strong>Sản phẩm dự thi Phần mềm Nguồn mở - OLP 2025</strong><br>
   <strong>Chủ đề:</strong> Phát triển ứng dụng thành phố thông minh dựa trên nền tảng dữ liệu mở.
@@ -26,6 +34,9 @@
 [✨ Tính năng](#tính-năng-chính-features) • [🏗️ Kiến trúc](#kiến-trúc-hệ-thống) • [📦 Cài đặt](#hướng-dẫn-cài-đặt-build-from-source) • [🚀 Chạy ứng dụng](#chạy-ứng-dụng-run) • [📋 Cấu hình](#cấu-hình-môi-trường) • [📄 Giấy phép](#giấy-phép-license) • [👥 Team](#đội-ngũ-phát-triển-team) • [🔗 Liên kết](#liên-kết-hữu-ích-useful-links) • [❓ FAQ](#-faq-câu-hỏi-thường-gặp)
 
 </div>
+
+---
+
 
 ---
 
@@ -119,10 +130,10 @@ Dự án được tổ chức theo mô hình **Microservices** với ba thành p
     │  │ • Zones    │  │    │  └────────────┘  │   │         │          │
     │  │ • Predict  │  │    │                  │   │         │ MQTT     │
     │  │ • Reports  │  │    │                  │   │         ▼          │
-    │  │            │  │    │                  │   │    ┌───────────┐   │
-    │  │ Rule Engine│  │    │                  │   │    │MQTT Broker│   │
-    │  │ (TS)       │  │    │                  │   │    │(ESP32/IoT)│   │
-    │  └────────────┘  │    │                  │   │    └───────────┘   │
+    │  │            │  │    │                  │   │    ┌─────────────┐ │
+    │  │ Rule Engine│  │    │                  │   │    │MQTT Broker  │ │
+    │  │ (TS)       │  │    │                  │   │    │(Pi Zero/IoT)│ │
+    │  └────────────┘  │    │                  │   │    └──────────── ┘ │
     │                  │    │                  │   │                    │
     └──────────────────┘    └──────────────────┘   └────────────────────┘
 ```
