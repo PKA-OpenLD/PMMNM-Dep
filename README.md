@@ -420,9 +420,9 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 
 ### Documentation:
 
-- [Web App Architecture](./app/PHAN_TICH_HE_THONG.md)
-- [MQTT Bridge Guide](./bridge/PHAN_TICH_HE_THONG.md)
-- [AI Model Training](./models/PHAN_TICH_HE_THONG.md)
+- [Web App Architecture](./app/docs/PHAN_TICH_HE_THONG.md)
+- [MQTT Bridge Guide](./bridge/docs/PHAN_TICH_HE_THONG.md)
+- [AI Model Training](./models/docs/PHAN_TICH_HE_THONG.md)
 
 ### External Resources:
 
@@ -463,7 +463,7 @@ Dataset sử dụng CC BY 4.0 license, có thể dùng commercial với attribut
 
 ### 6. Làm sao để tích hợp thêm loại sensor mới?
 
-Xem [Bridge Documentation](./bridge/PHAN_TICH_HE_THONG.md#adding-new-sensors).
+Xem [Bridge Documentation](./bridge/docs/PHAN_TICH_HE_THONG.md#adding-new-sensors).
 
 ### 7. Hệ thống có hỗ trợ multiple languages không?
 
