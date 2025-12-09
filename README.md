@@ -409,10 +409,10 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 
 ### Tài liệu:
 
-- [Web App Architecture](https://github.com/username/app-module/blob/main/docs/PHAN_TICH_HE_THONG.md)
-- [MQTT Bridge Guide](https://github.com/username/bridge-module/blob/main/docs/PHAN_TICH_HE_THONG.md)
-- [AI Model Training](https://github.com/username/models-module/blob/main/docs/PHAN_TICH_HE_THONG.md)
-### Nguồn tài nguyên:
+- [Web App Architecture](https://github.com/PKA-OpenLD/FORMS-app/blob/master/docs/SYSTEM_ANALYSIS.md)
+- [AI Model Training](https://github.com/PKA-OpenLD/FORMS-Model/blob/e72f80ea2b14f9848d3d84812ff894ee82413292/docs/PHAN_TICH_HE_THONG.md)
+- [MQTT Bridge Guide](https://github.com/PKA-OpenLD/FORMS-Bridge/blob/13658b41638fa8ee3fbbb87b1cd92c78ae6253a4/docs/PHAN_TICH_HE_THONG.md)
+### External Resources:
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [VietMap GL JS](https://maps.vietmap.vn/docs)
