@@ -387,20 +387,6 @@ Dự án này được phân phối dưới **Apache License 2.0**. Xem file [LI
 
 ---
 
-## Đội ngũ phát triển
-
-- **Organization**: PKA-OpenLD
-- **Maintainer**: PKA-OpenLD Team
-- **Year**: 2025
-- **Competition**: OLP 2025 - Phần mềm Nguồn mở
-
-### Liên hệ:
-
-- 📧 Email: [contact@pka-openld.org](mailto:contact@pka-openld.org)
-- 🌐 GitHub: [github.com/PMMNM-Dep](https://github.com/PKA-OpenLD)
-- 📝 Issues: [GitHub Issues](https://github.com/PKA-OpenLD/FORMS/issues)
-
----
 
 ## Liên kết hữu ích
 
@@ -457,7 +443,7 @@ Chưa, nhưng web app đã responsive và hoạt động tốt trên mobile.
 
 Tới [Hướng Dẫn Đóng Góp](https://github.com/PKA-OpenLD/FORMS/blob/main/CONTRIBUTING.md).
 
-##📜 Giấy Phép.
+## 📜 Giấy Phép.
 Source code trong repository được đảm báo dưới [Apache License Version 2.0](https://github.com/PKA-OpenLD/FORMS/blob/main/LICENSE).
 
 ## Tuyên bố miễn trừ trách nhiệm
@@ -465,6 +451,21 @@ Source code trong repository được đảm báo dưới [Apache License Versio
 Dự án này được phát triển cho mục đích học tập và dự thi. Không được đảm bảo cho sử dụng production mà không có testing và validation đầy đủ.
 
 <div align="center">
+
+## Đội ngũ phát triển
+
+- **Organization**: PKA-OpenLD
+- **Maintainer**: PKA-OpenLD Team
+- **Year**: 2025
+- **Competition**: OLP 2025 - Phần mềm Nguồn mở
+
+### Liên hệ:
+
+- 🌐 GitHub: [github.com/PKA-OpenLD](https://github.com/PKA-OpenLD)
+- 📝 Issues: [GitHub Issues](https://github.com/PKA-OpenLD/FORMS/issues)
+
+---
+
 
 Nếu dự án mang lại giá trị, hãy cân nhắc ⭐ để ủng hộ nhóm phát triển.
 Developed and maintained by PKA-OpenLD — OLP 2025
