@@ -18,7 +18,10 @@
 </p>
 
 ---
-
+<div align="center">
+  <img src="./docs/resources/demo.gif" alt="demo" />
+</div>
+---
 ## 📑 Mục lục
 
 <div align="center">
