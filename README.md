@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/Version-1.1.0-green?style=for-the-badge" />
 </p>
 
+<p align="center"> <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank"> <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="Video Demo" width="720"/> </a> </p>
+
 <p align="center">
   <strong>Sản phẩm dự thi Phần mềm Nguồn mở - OLP 2025</strong><br>
   <strong>Chủ đề:</strong> Phát triển ứng dụng thành phố thông minh dựa trên nền tảng dữ liệu mở.
@@ -22,6 +24,7 @@
   <img src="./docs/resources/demo.gif" alt="demo" />
 </div>
 ---
+
 ## 📑 Mục lục
 
 <div align="center">
