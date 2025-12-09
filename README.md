@@ -453,7 +453,7 @@ Source code trong repository được đảm báo dưới [Apache License Versio
 
 Dự án này được phát triển cho mục đích học tập và dự thi. Không được đảm bảo cho sử dụng production mà không có testing và validation đầy đủ.
 
-<div align="center">
+<div>
 
 ## Đội ngũ phát triển
 
